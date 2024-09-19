@@ -4,9 +4,6 @@ import heroVideo from './assets/hero-video.mp4'; // Optimized video
 import serviceImage1 from './assets/private-lessons.jpg'; // Optimized image
 import serviceImage2 from './assets/group-lessons.jpg'; // Optimized image
 import serviceImage3 from './assets/rentals.jpg'; // Optimized image
-import galleryImage1 from './assets/gallery1.jpg'; // Optimized image
-import galleryImage2 from './assets/gallery2.jpg'; // Optimized image
-import galleryImage3 from './assets/gallery3.jpg'; // Optimized image
 
 function App() {
     return (
@@ -70,9 +67,9 @@ function App() {
                 <section id="gallery" className="my-12">
                     <h2 className="text-2xl font-semibold">Gallery</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <img src={galleryImage1} alt="Gallery Image 1" className="w-full h-48 object-cover rounded-lg" />
-                        <img src={galleryImage2} alt="Gallery Image 2" className="w-full h-48 object-cover rounded-lg" />
-                        <img src={galleryImage3} alt="Gallery Image 3" className="w-full h-48 object-cover rounded-lg" />
+                        <img src="public/Serviceimages/gallary1.jpg" alt="Gallery Image 1" className="w-full h-48 object-cover rounded-lg" />
+                        <img src="public/Serviceimages/gallary2.jpg" alt="Gallery Image 2" className="w-full h-48 object-cover rounded-lg" />
+                        <img src="public/Serviceimages/gallary3.jpg" alt="Gallery Image 3" className="w-full h-48 object-cover rounded-lg" />
                     </div>
                 </section>
                 <section id="testimonials" className="testimonials my-12">
